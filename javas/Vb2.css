@@ -1,0 +1,258 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border:brown 0px solid;     
+    height: auto;
+    position: relative;
+    top: 0;
+}
+ navbar styling
+.nav::after{
+     border:chartreuse 2px ridge; 
+     content: "";
+}
+ul {
+    display: inline-block; 
+    margin: 21px;
+    
+}
+
+ul li{
+    display: inline-block; 
+    padding: 0px 170px;
+    font-size: 2rem;
+    font-weight: 900;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(117, 111, 111);
+}
+
+a:hover{
+    background-color: black;
+} 
+
+
+/* banner styling */
+.banner{
+    
+    height: 552px;
+    width: 100vw;
+    background: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png") no-repeat center ;
+    background-size: cover; 
+    position: relative ;
+    top: 0px;
+    left: 0px;
+    height: 60vh;
+    object-fit: cover;
+    
+
+    
+}
+.zom{
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90px;
+    padding: 3% 38%;
+    margin: 0%;
+}
+.banner p{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif ;
+    font-size: 26px;
+    padding: 0% 34%;
+
+
+}
+span{
+
+    font-weight: 900;
+}
+
+/* bigbox styling */
+.bigbox{   
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    justify-content: center;
+    position: relative;
+
+}
+.box1{
+    border-radius: 1.2rem;
+    height: 240px;
+    width: 540px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    
+}
+.box1:hover{
+    transform: scale(1.1);
+    
+}
+.b1{
+    background: url("https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?fit=around|402:360&amp;crop=402:360;*,*") no-repeat center ;
+    background-size: cover;
+    border-radius: 1.2rem 1.2rem 0% 0%;
+    width: 540px;
+    height: 160px;
+}
+.B1{
+    background: url("https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png?fit=around|402:360&amp;crop=402:360;*,*") no-repeat center ;
+    background-size: cover;
+    border-radius: 1.2rem 1.2rem 0% 0%;
+    width: 540px;
+    height: 160px;
+
+}
+
+/* collection styling */
+.bigbox2{
+    height: auto;
+    width: 98.2vw;
+
+}
+
+.collection{
+    width: 62vw;
+    height: auto;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 0% 19% ;
+
+}
+
+.boxx2{
+    display: flex;
+    width: 62vw;
+    margin: 0% 19% ;
+}
+.exp{
+    width: 70%;
+}
+.all{
+    width: 30%;
+}
+
+
+/* footer styling */
+footer{
+    
+    height: auto;
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(223, 139, 139);
+    color: blanchedalmond;
+}
+
+ /* Services Section  */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+
+
+
+
+
+
+
+
+/* Contact Section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+
+
+/* utility styling */
+.secondary{
+
+    font-size: 1.5rem;
+    text-shadow: 1px 0px rgb(134, 132, 132);
+    color: rgb(43, 42, 42);
+    font-weight: 500;
+    padding: 0rem 1rem;
+}
+
+.primary{
+    margin: -2% 0%;
+    font-size: 1.2rem;
+    padding: 0rem 1rem;
+}
+.primary a{
+    text-decoration:none;
+    color: rgb(70, 69, 69);
+}
+.primary_1{
+    margin: 0% 0%;
+    font-size: 1.2rem;
+    padding: 0rem 1rem;
+}
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align: center;
+}
